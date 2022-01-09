@@ -1,0 +1,31 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+	background-image: url(bgImg.jpg);
+}
+#container{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 40px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#display{
+	font-family: 'Open Sans',sans-serif;
+	margin: 20px auto;
+	width: 320px;
+	height: 40px;
+}
+.buttondigits, .buttonmathButtons, .button{
+	width: 50px;
+	height: 50px;
+	margin: 40px 20px 10px 10px;
+	float: left;
+	border-radius: 40%;
+	border-width: 5px;
+	font-weight: bold;
+	font-size: 15px;
+}
